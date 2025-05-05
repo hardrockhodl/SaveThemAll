@@ -4,7 +4,8 @@ from datetime import datetime
 from uuid import uuid4
 import os
 
-print("SaveThemAll plugin is loading...")
+# unComment for debug
+# print("SaveThemAll plugin is loading...")
 
 def expand_username(path):
     """Replace %username% in a path with the current user's username.

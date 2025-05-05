@@ -1,0 +1,8 @@
+[
+    // macOS
+    // {"keys": ["super+option+s"], "command": "save_temporary_buffers"},
+    // {"keys": ["super+option+shift+s"], "command": "save_all_buffers"},
+    // Windows/Linux
+    // {"keys": ["ctrl+alt+s"], "command": "save_temporary_buffers"},
+    // {"keys": ["ctrl+alt+shift+s"], "command": "save_all_buffers"}
+]

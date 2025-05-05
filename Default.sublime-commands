@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "SaveThemAll: Save Temporary Buffers",
+        "command": "save_temporary_buffers"
+    },
+    {
+        "caption": "SaveThemAll: Save All Buffers",
+        "command": "save_all_buffers"
+    }
+]
