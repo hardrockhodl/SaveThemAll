@@ -32,6 +32,12 @@ And because all text buffers are saved—even the ones you forgot about—you ca
 
 ---
 
+### Compatibility
+- Sublime Text 3 (Build 3000 and above) and Sublime Text 4.
+- Tested on macOS, Windows, and Linux. The `%username%` variable is resolved cross-platform using `os.path.expanduser('~')` and fallbacks.
+
+--- 
+
 ## Installation
 
 #### via Sublime Text Package Manager
