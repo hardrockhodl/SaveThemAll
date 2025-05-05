@@ -8,15 +8,13 @@ print("SaveThemAll plugin is loading...")
 
 def expand_username(path):
     """Replace %username% in a path with the current user's username.
-    
     Args:
         path: The path string containing %username% or other variables.
-    
     Returns:
         str: The path with %username% replaced by the actual username.
     """
+    # Try getting username from home directory
     try:
-        # Try getting username from home directory
         username = os.path.basename(os.path.expanduser('~'))
         print(f"Using home dir username: {username}")
     except Exception as e:
@@ -24,8 +22,8 @@ def expand_username(path):
             username = os.getlogin()
             print(f"Home dir failed: {e}, using os.getlogin(): {username}")
         except Exception as e2:
-            username = os.environ.get('USER', 'unknown')
-            print(f"os.getlogin() failed: {e2}, using USER env: {username}")
+            username = os.environ.get('USER', os.environ.get('USERNAME', 'unknown'))
+            print(f"os.getlogin() failed: {e2}, using USER/USERNAME env: {username}")
     return path.replace('%username%', username)
 
 def save_view_as_temporary(view, tmp_dir=None):
