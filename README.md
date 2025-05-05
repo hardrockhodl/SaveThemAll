@@ -1,7 +1,9 @@
 # SaveThemAll – Sublime Text Plugin
 
-**SaveThemAll** is a Sublime Text plugin that automatically saves unsaved buffers to organized, project-based directories with timestamped names (e.g., `2025-05-01_123456-abcd1234.txt`). It simplifies file management by ensuring unsaved work is preserved in a structured, predictable way.
+**SaveThemAll** is a Sublime Text plugin that automatically saves unsaved buffers (files) to organized, project-based directories with timestamped names. It simplifies and speed-up file management by ensuring unsaved work is preserved in a structured, predictable way.
 
+---
+![SublimeTextLogo](https://www.sublimetext.com/images/logo.svg)
 ---
 
 ## Why SaveThemAll?
