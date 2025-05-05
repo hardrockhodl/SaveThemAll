@@ -1,0 +1,9 @@
+{
+    "base_dir": "~/Documents/sublime-project-autosaves",
+    "default_extension": ".txt",
+    "project_mappings": [
+        {"match": "private", "path": "~/Documents/sublime-project-autosaves/private"},
+        {"match": "work", "path": "~/Documents/sublime-project-autosaves/work"},
+        {"match": "unsorted", "path": "~/Documents/sublime-project-autosaves/unsorted"}
+    ]
+}
