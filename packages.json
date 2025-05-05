@@ -8,7 +8,6 @@
         {
             "sublime_text": ">=3000",
             "platforms": ["*"],
-            "python_versions": ["3.3", "3.8"],
             "tags": true
         }
     ]
